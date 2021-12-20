@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Agência de viagens</title>
+
+    <style>
+      
+    </style>
+</head>
+<body class="wrapper">
+    <nav class="navbar" style="background-color: rgb(255, 255, 255);">
+        <a class="brand" href=""><img class="tamanho-imagem" src="./img/logo.png"></a>
+        <ul class="nav-item" style="color:black">
+            <li class="nav-link"><a href="./index.html">Home</a></li>        
+            <li class="nav-link"><a href="./destinos.html">Destinos</a></li>
+            <li class="nav-link"><a href="./promocoes.html">Promoções</a></li>
+            <li class="nav-link"><a href="./adm.html">ADM</a></li>
+            <li class="nav-link"><a href="./contato.html">Contato</a></li>
+        </ul>
+      </nav>
+      <br>
+  
+      <h1 class="centralizar">Destinos disponíveis</h1>
+
+    <div class="centralizar">
+        <div class="centralizar" id="container-master">
+
+            <div class="card" style="width: 18rem;">
+                <img width="100%" src="./img/Cristo-Redentor.jpg" alt="Card image cap">
+                <div class="card-corpo centralizar">
+                    <h5 class="card-title">Cristo Redentor</h5>
+                    <p class="card-text">Cristo Redentor é uma estátua art déco que retrata Jesus Cristo, localizada no topo do morro do Corcovado, a 709 metros acima do nível do mar, no Parque Nacional da Tijuca, com vista para a maior parte da cidade do Rio de Janeiro, Brasil.</p>
+                    <a href="#" class="btn btn-primary">R$ 5999,00</a>
+                </div>
+            </div>
+
+            <br>
+    
+            <form class="formulario"> 
+                <h2>Cadastrar viagem</h2>
+                <div class="">
+                    <label for="nomeViajante">Nome</label>
+                    <br>
+                    <input type="text" id="nomeViaja" placeholder="Digite o nome (viajante)">
+                </div>
+    
+                <br>
+    
+                <div class="">
+                    <label  for="destinoViajante">Destino</label> 
+                    <br>
+                    <select  id="destinoViajante">
+                    <option selected>Escolha um destino...</option>
+                    <option value="1">Cristo Redentor</option>
+                    <option value="2">Disneyland</option>
+                    </select>
+                </div>
+                
+                <br>
+    
+                <div >
+                    <input type="checkbox" class="" id="temGuia">
+                    <label  for="temGuia">Incluir guia turístico</label>
+                </div>
+    
+                <br>
+                
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+        </div>
+    </div>
+    
+
+    
+    
+</body>
+</html>
